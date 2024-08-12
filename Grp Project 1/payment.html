@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payment Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container4">
+      <div class="checkout-card">
+        <div class="checkout-deatils">
+          <p>Checkout</p>
+          <h3>Contact Details</h3>
+          <div class="details">
+            <label for="Email">Email</label>
+            <input type="text" id="email-id" placeholder="abc98@gmail.com" />
+          </div>
+          <div class="payment">
+            <h3>Payment</h3>
+            <div class="pay-details">
+              <div class="methods">
+                <button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    height="24"
+                    width="24"
+                    color="orange"
+                  >
+                    <path
+                      d="M22 3c.53 0 1.039.211 1.414.586s.586.884.586 1.414v14c0 .53-.211 1.039-.586 1.414s-.884.586-1.414.586h-20c-.53 0-1.039-.211-1.414-.586s-.586-.884-.586-1.414v-14c0-.53.211-1.039.586-1.414s.884-.586 1.414-.586h20zm1 8h-22v8c0 .552.448 1 1 1h20c.552 0 1-.448 1-1v-8zm-15 5v1h-5v-1h5zm13-2v1h-3v-1h3zm-10 0v1h-8v-1h8zm-10-6v2h22v-2h-22zm22-1v-2c0-.552-.448-1-1-1h-20c-.552 0-1 .448-1 1v2h22z"
+                    />
+                  </svg>
+                  Card
+                </button>
+                <button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                  >
+                    <path
+                      d="M13.193 11.961c1.824-.242 3.818-.972 3.818-3.181 0-2.968-4.141-2.78-6.131-2.78h-.88v12h.88c3.578 0 7.153-.146 7.153-2.795 0-2.494-2.375-3.099-4.84-3.244zm-1.193-3.942c1.625 0 2.911.09 2.911 1.016 0 .958-1.229 1.024-2.911 1.024v-2.04zm1.896 7.969h-1.896v-2.065h1.938c2.265 0 2.458 2.065-.042 2.065zm5.793-5.045c.855-1.03 1.326-2.527.91-4.097-.439-1.647-1.482-3.617-5.599-4.015v-2.831h-8v3h-4v5h2.744c.181 0 .256 0 .256.291v7.139c0 .269-.119.57-.279.57h-1.926l-.795 5h4v3h8v-2.75c4.629-.287 7-2.604 7-6.32 0-1.695-.84-3.107-2.311-3.987zm-6.048 8.057h-.641v3h-1v-3h-2v3h-1v-3h-3.79l.125-1h.386c1.3 0 2.279-1.105 2.279-2.57v-7.139c0-1.349-.928-2.291-2.256-2.291h-.744v-1h4v-3h1v3h2v-3h1v3h.606c6.027.203 6.235 4.349 3.815 6.5 1.141.516 2.579 1.334 2.579 3.43 0 3.785-3.984 4.07-6.359 4.07z"
+                    />
+                  </svg>
+                  Crypto
+                </button>
+                <button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 21h-4v-11h4v11zm7-11h-4v11h4v-11zm7 0h-4v11h4v-11zm2 12h-22v2h22v-2zm-23-13h24l-12-9-12 9z"
+                    />
+                  </svg>
+                  Bank
+                </button>
+                <button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="25"
+                    height="25"
+                  >
+                    <path
+                      d="M12 3C11.175 3 10.5 3.675 10.5 4.5C10.5 5.325 11.175 6 12 6C12.825 6 13.5 5.325 13.5 4.5C13.5 3.675 12.825 3 12 3ZM12 18C11.175 18 10.5 18.675 10.5 19.5C10.5 20.325 11.175 21 12 21C12.825 21 13.5 20.325 13.5 19.5C13.5 18.675 12.825 18 12 18ZM12 10.5C11.175 10.5 10.5 11.175 10.5 12C10.5 12.825 11.175 13.5 12 13.5C12.825 13.5 13.5 12.825 13.5 12C13.5 11.175 12.825 10.5 12 10.5Z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="card-details">
+                <label for="Card-number">Card Number</label>
+                <input type="text" id="card-id" placeholder="Card Number" />
+              </div>
+              <div class="expiry-cvv">
+                <div class="expiry">
+                  <label for="Card-number">Expiry</label>
+                  <input type="text" id="card-id" placeholder="MM/YY" />
+                </div>
+                <div class="CVV">
+                  <label for="CVV">CVC</label>
+                  <input type="text" id="card-id" placeholder="..." />
+                </div>
+              </div>
+              <div class="country-zip">
+                <div class="country">
+                  <label for="CVV">Country</label>
+                  <input
+                    type="text"
+                    id="card-id"
+                    placeholder="India"
+                    dropzone=""
+                  />
+                </div>
+                <div class="zip">
+                  <label for="CVV">ZIP</label>
+                  <input type="text" id="card-id" placeholder="XXXXXX" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="checkout-section">
+        <h2>Order Summary</h2>
+        <div class="coupon">
+          <label for="coupon-code">Enter Coupon Code</label>
+          <div class="coupon-code">
+            <input type="text" id="coupon-code" placeholder="COUPON CODE" />
+            <button class="apply-coupon">Apply Coupon</button>
+          </div>
+          <div class="summary">
+            <p>Sub Total: <span>₹4,700</span></p>
+            <p>Taxes (if applicable): <span>₹199</span></p>
+            <p>Discount: <span>₹0</span></p>
+            <hr />
+            <h3>Total: <span>₹4,999</span></h3>
+          </div>
+        </div>
+        <button class="pay-now"><a href="">Pay Now ₹4,999</a></button>
+        <div class="img-row">
+          <img
+            src="./assests/secure_payment-removebg-preview.png"
+            alt="100% secure payment"
+          />
+          <img
+            src="./assests/razorpay-logo-removebg-preview.png"
+            alt="RazorPay payment"
+          />
+          <img
+            src="./assests/security_payment-removebg-preview.png"
+            alt=" Secure payment"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
